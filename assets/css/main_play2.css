@@ -87,10 +87,7 @@ video {
   vertical-align: baseline
 }
 
-#text-img
-              {
-                margin-left: 2rem;
-              }
+
 
 article,
 aside,
@@ -542,10 +539,25 @@ background-image: linear-gradient(to right, #004FF9 0%, #FFF94C  51%, #004FF9  1
     margin: auto;
 }
 
+.hero__illustration2 {
+    width: 100%;
+    margin-left: -9rem;
+    min-width: 0;
+    /* margin: auto; */
+}
+
 @media screen and (max-width: 1023.98px) {
   .hero__illustration {
     max-width: 480px;
     width: 100%
+
+  }
+
+  .hero__illustration2 {
+    max-width: 480px;
+    width: 100%;
+        margin-left: -5rem;
+
   }
 }
 
